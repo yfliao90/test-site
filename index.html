@@ -5,11 +5,12 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <script src="scripts/jquery-3.3.1.js"></script>
+    <script src="scripts/underscore.js"></script>
   
     <title>My test page</title>
   </head
   >
-  <h1>hello world</h1>
+  <!-- <h1>hello world</h1>
   <body>
     <form id="test-form" action="#0" onsubmit="return false;">
       <p><label>Name: <input name="name"></label></p>
@@ -25,7 +26,27 @@
       <p><button type="submit">Submit</button></p>
   </form>
   <button>Change user</button>
-  </body>
+  </body> -->
 
-  <script src="scripts/main.js"></script>
+
+  <form id="test-form" action="test">
+    <legend>请选择想要学习的编程语言：</legend>
+    <fieldset>
+        <p><label class="selectAll"><input type="checkbox"> <span class="selectAll">全选</span><span class="deselectAll">全不选</span></label> <a href="#0" class="invertSelect">反选</a></p>
+        <p><label><input type="checkbox" name="lang" value="javascript"> JavaScript</label></p>
+        <p><label><input type="checkbox" name="lang" value="python"> Python</label></p>
+        <p><label><input type="checkbox" name="lang" value="ruby"> Ruby</label></p>
+        <p><label><input type="checkbox" name="lang" value="haskell"> Haskell</label></p>
+        <p><label><input type="checkbox" name="lang" value="scheme"> Scheme</label></p>
+        <p><button type="submit">Submit</button></p>
+    </fieldset>
+</form>
+
+<div id="test-external">
+  <p>如何学习<a href="http://jquery.com">jQuery</a>？</p>
+  <p>首先，你要学习<a href="/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000">JavaScript</a>，并了解基本的<a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a>。</p>
+</div>
+
+<!-- <script src="scripts/main.js"></script> -->
+<script src="scripts/test.js"></script>
 </html>
