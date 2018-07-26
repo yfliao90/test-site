@@ -2,10 +2,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Run /scripts/nodetest.js",
+            "name": "Run /hello-koa/app.js",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/scripts/nodetest.js",
+            "program": "${workspaceRoot}/hello-koa/app.js",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
