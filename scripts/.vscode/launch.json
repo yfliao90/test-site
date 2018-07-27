@@ -3,10 +3,10 @@
     "configurations": [
 
         {
-            "name": "Run nodetest.js",
+            "name": "Run app.js",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/nodetest.js",
+            "program": "${workspaceRoot}/../hello-koa/app.js",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
