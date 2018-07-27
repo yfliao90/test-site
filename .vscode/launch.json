@@ -2,10 +2,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Run /hello-koa/app.js",
+            "name": "Run /use-nunjucks/app.js",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/hello-koa/app.js",
+            "program": "${workspaceRoot}/use-nunjucks/app.js",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",

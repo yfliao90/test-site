@@ -1,0 +1,17 @@
+{
+    "name": "use-nunjucks",
+    "version": "1.0.0",
+    "description": "nunjucks example",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [
+        "nunjucks"
+    ],
+    "author": "Amy Liao",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "nunjucks": "2.4.2"
+    }
+}
