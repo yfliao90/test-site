@@ -1,0 +1,23 @@
+{
+    "name": "view-koa",
+    "version": "1.0.0",
+    "description": "MVC",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [
+        "koa",
+        "amy"
+    ],
+    "author": "Amy Liao",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "koa": "2.0.0",
+        "koa-bodyparser": "3.2.0",
+        "koa-router": "7.0.0",
+        "nunjucks": "2.4.2",
+        "mime": "1.3.4",
+        "mz": "2.4.0"
+    }
+}

@@ -22,7 +22,7 @@ function createEnv(path, opts) {
     return env;
 }
 
-var env = createEnv(path.resolve(__dirname, 'views'), {
+var env = createEnv('use-nunjucks/views', {
     watch: true,
     filters: {
         hex: function (n) {

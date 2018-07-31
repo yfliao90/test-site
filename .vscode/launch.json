@@ -2,10 +2,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Run /use-nunjucks/app.js",
+            "name": "Run /view-koa/app.js",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/use-nunjucks/app.js",
+            "program": "${workspaceRoot}/view-koa/app.js",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
