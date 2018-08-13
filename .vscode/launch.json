@@ -5,7 +5,7 @@
             "name": "Run",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/koa-test/start.js",
+            "program": "${workspaceRoot}/vue-mini-excel/app.js",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
